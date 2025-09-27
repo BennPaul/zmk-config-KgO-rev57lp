@@ -36,8 +36,10 @@
         };
 
         Ebene3 {
-            bindings = <&mo 3>;
+            timeout-ms = <50>;
             key-positions = <49 50>;
+            bindings = <&mo 3>;
+            
         };
     };
 
@@ -83,7 +85,15 @@
             >;
         };
 
-        extra1 { status = "reserved"; };
+        ebene3 {
+            bindings = <
+&none         &none         &none         &none         &none         &none                      &none  &none  &none  &none  &none  &none
+&none         &none         &none         &none         &none         &none                     &none  &none  &none  &none  &none  &none
+&none         &none         &none         &none         &none         &none         &none      &none  &none  &none  &none  &none  &none
+&none         &none         &none         &none         &none         &none                     &none  &none  &none  &none  &none  &none
+                            &none         &none         &none         &none                     &none  &none  &none  &none
+            >;
+        };
 
         extra2 { status = "reserved"; };
 
