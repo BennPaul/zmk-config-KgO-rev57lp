@@ -34,6 +34,11 @@
             key-positions = <52 53>;
             bindings = <&studio_unlock>;
         };
+
+        Ebene3 {
+            bindings = <&mo 3>;
+            key-positions = <49 50>;
+        };
     };
 
     macros {
