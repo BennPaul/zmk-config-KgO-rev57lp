@@ -60,7 +60,7 @@
 &kp TAB     &kp Q   &kp W     &kp E     &kp R      &kp T                &kp Y      &kp U    &kp I      &kp O     &kp P      &kp LBKT
 &kp LCTRL   &kp A   &kp S     &kp D     &kp F      &kp G      &kp LGUI  &kp H      &kp J    &kp K      &kp L     &kp SEMI   &kp SQT
 &kp LSHIFT  &kp Z   &kp X     &kp C     &kp V      &kp B                &kp N      &kp M    &kp COMMA  &kp DOT   &kp SLASH  &kp RSHIFT
-                    &mo FNAV  &kp LALT  &kp SPACE  &kp MINUS            &kp EQUAL  &kp RET  &kp BSLH   &mo FNAV
+                    &mo FNAV  &kp LALT  &kp SPACE  &kp SPACE            &kp EQUAL  &kp RET  &kp BSLH   &mo FNAV
             >;
         };
 
@@ -74,6 +74,16 @@
             >;
         };
 
+        ebene3 {
+            bindings = <
+&none  &none  &none  &none  &none  &none         &none  &none      &none  &none  &none  &kp MINUS
+&none  &none  &none  &none  &none  &none         &none  &none      &none  &none  &none  &none
+&trans  &none  &none  &none  &none  &none  &trans  &none  &Test_Ben  &none  &none  &none  &none
+&trans  &none  &none  &none  &none  &none         &none  &none      &none  &none  &none  &trans
+              &none  &none  &none  &none         &none  &none      &none  &none
+            >;
+        };
+
         blutut {
             bindings = <
 &out OUT_TOG  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4              &none  &none  &none  &none  &none  &none
@@ -81,16 +91,6 @@
 &none         &none         &none         &none         &none         &none         &bt BT_CLR  &none  &none  &none  &none  &none  &none
 &none         &none         &none         &none         &none         &none                     &none  &none  &none  &none  &none  &none
                             &none         &none         &none         &none                     &none  &none  &none  &none
-            >;
-        };
-
-        ebene3 {
-            bindings = <
-&none  &none  &none  &none  &none  &none         &none  &none      &none  &none  &none  &kp MINUS
-&none  &none  &none  &none  &none  &none         &none  &none      &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &Test_Ben  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none         &none  &none      &none  &none  &none  &none
-              &none  &none  &none  &none         &none  &none      &none  &none
             >;
         };
 
